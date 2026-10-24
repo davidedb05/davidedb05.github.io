@@ -12,23 +12,43 @@
   <style>
     .attribution { font-size: 0.6875rem; text-align: center; display:flex; justify-items: center; align-items: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    body{font-family:'Outfit', sans-serif;
+    body{background-color: hsl(212, 45%, 89%);}
+    main{font-family:'Outfit', sans-serif;
       display: flex;
       min-height: 100vh;
       justify-content: center;
-      align-items: center;
-      background-color: hsl(212, 45%, 89%);
+      align-items: center; 
     }
-    h1{font-weight:700; color: hsl(218, 44%, 22%); text-align: center}
+    .card{
+      display:flex;
+      flex-direction: column;
+      width: 18%;
+      aspect-ratio: 3:4;
+      border-radius: 16px;
+      background-color: white;
+    }
+    img{
+      width: 90%;
+      align-self:center;
+      margin: 18px;
+      border-radius: 16px;
+    }
+    h1{font-weight:700; 
+      color: hsl(218, 44%, 22%); 
+      text-align: center;
+      font-size: 24px;}
     
   </style>
 </head>
 <body>
-  <div class = "card">
-    <img src = "images/image-qr-code.png" alt="qr code">
-    <h1>Improve your front-end skills by building projects</h1>
-    <p> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  </div>
+  <main>
+    <div class = "card">
+      <img src = "images/image-qr-code.png" alt="qr code">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </main>
+  
   
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
